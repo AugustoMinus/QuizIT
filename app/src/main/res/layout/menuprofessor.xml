@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/EditQuestProfessor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/editar_questionario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitleMenuprofessor"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <TextView
+        android:id="@+id/textViewTitleMenuprofessor"
+        android:layout_width="185dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="67dp"
+        android:text="@string/quiz_it"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/AplicarQuest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/aplicar_quastionario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditQuestProfessor"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <CheckBox
+        android:id="@+id/List1perg1"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/pergunta1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/list1"
+        app:layout_constraintVertical_bias="0.006"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/List1perg2"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/pergunta2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/List1perg1"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/List1perg3"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="240dp"
+        android:text="@string/pergunta3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/List1perg2"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/List1perg10"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/pergunta10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/List1perg9"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/List1perg9"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/pergunta9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/List1perg8"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/List1perg5"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/pergunta5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/List1perg4"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/List1perg7"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/pergunta7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/List1perg6"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/List1perg8"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/pergunta8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/List1perg7"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/List1perg4"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/pergunta4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/List1perg3"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/List1perg6"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/pergunta6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/List1perg5"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/list1"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="425dp"
+        android:text="@string/lista1"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/list2"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AplicarQuest"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/list2"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/lista2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AplicarQuest"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/List2perg11"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:text="@string/pergunta11"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toEndOf="@+id/List1perg1"
+        app:layout_constraintTop_toBottomOf="@+id/list2"
+        app:layout_constraintVertical_bias="0.042"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/List2perg12"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:text="@string/pergunta12"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toEndOf="@+id/List1perg2"
+        app:layout_constraintTop_toBottomOf="@+id/List2perg11"
+        app:layout_constraintVertical_bias="0.003"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/List2perg13"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:text="@string/pergunta13"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toEndOf="@+id/List1perg3"
+        app:layout_constraintTop_toBottomOf="@+id/List2perg12"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/List2perg14"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:text="@string/pergunta14"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toEndOf="@+id/List1perg4"
+        app:layout_constraintTop_toBottomOf="@+id/List2perg13"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/List2perg15"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:text="@string/pergunta15"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toEndOf="@+id/List1perg5"
+        app:layout_constraintTop_toBottomOf="@+id/List2perg14"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/List2perg16"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="136dp"
+        android:text="@string/pergunta16"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toEndOf="@+id/List1perg6"
+        app:layout_constraintTop_toBottomOf="@+id/List2perg15"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/list3"
+        android:layout_width="70dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/lista3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toEndOf="@+id/list2"
+        app:layout_constraintTop_toBottomOf="@+id/AplicarQuest"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/List2perg17"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:text="@string/pergunta17"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toEndOf="@+id/List1perg7"
+        app:layout_constraintTop_toBottomOf="@+id/List2perg16"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/List2perg18"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:text="@string/pergunta18"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toEndOf="@+id/List1perg8"
+        app:layout_constraintTop_toBottomOf="@+id/List2perg17"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/List2perg19"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:text="@string/pergunta19"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toEndOf="@+id/List1perg9"
+        app:layout_constraintTop_toBottomOf="@+id/List2perg18"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/List2perg20"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:text="@string/pergunta20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toEndOf="@+id/List1perg10"
+        app:layout_constraintTop_toBottomOf="@+id/List2perg19"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/List3perg21"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/pergunta21"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.937"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/list3"
+        app:layout_constraintVertical_bias="0.007"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/List3perg22"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:text="@string/pergunta22"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintStart_toEndOf="@+id/List2perg12"
+        app:layout_constraintTop_toBottomOf="@+id/List3perg21"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/List3perg23"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:text="@string/pergunta23"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintStart_toEndOf="@+id/List2perg13"
+        app:layout_constraintTop_toBottomOf="@+id/List3perg22"
+        app:layout_constraintVertical_bias="0.003"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/List3perg24"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:text="@string/pergunta24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintStart_toEndOf="@+id/List2perg14"
+        app:layout_constraintTop_toBottomOf="@+id/List3perg23"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/List3perg25"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:text="@string/pergunta25"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintStart_toEndOf="@+id/List2perg15"
+        app:layout_constraintTop_toBottomOf="@+id/List3perg24"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/List3perg26"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:text="@string/pergunta26"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintStart_toEndOf="@+id/List2perg16"
+        app:layout_constraintTop_toBottomOf="@+id/List3perg25"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/List3perg27"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:text="@string/pergunta27"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintStart_toEndOf="@+id/List2perg17"
+        app:layout_constraintTop_toBottomOf="@+id/List3perg26"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/List3perg28"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:text="@string/pergunta28"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.553"
+        app:layout_constraintStart_toEndOf="@+id/List2perg18"
+        app:layout_constraintTop_toBottomOf="@+id/List3perg27"
+        app:layout_constraintVertical_bias="0.011"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/List3perg29"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/pergunta29"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.838"
+        app:layout_constraintStart_toEndOf="@+id/List2perg19"
+        app:layout_constraintTop_toBottomOf="@+id/List3perg28"
+        app:layout_constraintVertical_bias="0.007"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <CheckBox
+        android:id="@+id/List3perg30"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/pergunta30"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintStart_toEndOf="@+id/List2perg20"
+        app:layout_constraintTop_toBottomOf="@+id/List3perg29"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/iformacaoMenuPerguntas"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:contentDescription="@string/clique_para_informa_oes_de_menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.246"
+        app:layout_constraintStart_toEndOf="@+id/EditQuestProfessor"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitleMenuprofessor"
+        app:layout_constraintVertical_bias="0.039"
+        app:srcCompat="@android:drawable/ic_dialog_info"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,ImageContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
