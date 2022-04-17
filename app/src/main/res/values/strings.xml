@@ -84,4 +84,19 @@
     <string name="btnResultadoexportar">Exportar</string>
     <string name="btnResultadohome">retornar</string>
     <string name="viewResultadoResultadoResultado">total de pontos=</string>
+    <string name="txtEdetPquiz_it">Quiz IT</string>
+    <string name="txtEdtpergunta"><![CDATA[pergunta>]]></string>
+    <string name="btnEdtvoltar"><![CDATA[<voltar]]></string>
+    <string name="btnEdtsalvar">salvar</string>
+    <string name="txtEdtPpergunta">TextView</string>
+    <string name="boxEdtop_o4">Opção4</string>
+    <string name="boxEdtop_o10">Opção10</string>
+    <string name="boxEdtop_o9">Opção9</string>
+    <string name="baxEdtop_o8">Opção8</string>
+    <string name="boxEdtop_o7">Opção7</string>
+    <string name="boxEdtop_o6">Opção6</string>
+    <string name="boxEdtop_o5">Opção5</string>
+    <string name="boxEdtop_o3">Opção3</string>
+    <string name="boxEdtop_o2">Opção2</string>
+    <string name="boxEdtop_o_a">Opção1</string>
 </resources>
